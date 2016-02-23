@@ -1,2 +1,0 @@
-calosc: 260x288 px
-jeden: 65x96 px

@@ -1,0 +1,75 @@
+
+explosions.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+smoke2
+  rotate: false
+  xy: 0, 128
+  size: 128, 119
+  orig: 128, 119
+  offset: 0, 0
+  index: -1
+smoke1
+  rotate: false
+  xy: 0, 0
+  size: 118, 128
+  orig: 118, 128
+  offset: 0, 0
+  index: -1
+smoke3
+  rotate: false
+  xy: 128, 130
+  size: 128, 117
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+smoke0
+  rotate: false
+  xy: 256, 131
+  size: 128, 116
+  orig: 128, 116
+  offset: 0, 0
+  index: -1
+smoke4
+  rotate: false
+  xy: 384, 134
+  size: 128, 113
+  orig: 128, 113
+  offset: 0, 0
+  index: -1
+explo3
+  rotate: false
+  xy: 512, 158
+  size: 96, 89
+  orig: 96, 89
+  offset: 0, 0
+  index: -1
+explo1
+  rotate: false
+  xy: 608, 158
+  size: 96, 89
+  orig: 96, 89
+  offset: 0, 0
+  index: -1
+explo4
+  rotate: false
+  xy: 704, 159
+  size: 96, 88
+  orig: 96, 88
+  offset: 0, 0
+  index: -1
+explo0
+  rotate: false
+  xy: 800, 160
+  size: 96, 87
+  orig: 96, 87
+  offset: 0, 0
+  index: -1
+explo2
+  rotate: false
+  xy: 896, 166
+  size: 96, 81
+  orig: 96, 81
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,17 @@
+[
+	{name:meteorBrown_small1,vertices:[0,16,7,28,23,27,28,10,13,0,4,4],density:500,friction:0,restitution:0},
+	{name:meteorBrown_small2,vertices:[0,12,4,24,20,28,28,18,18,0,8,0],density:500,friction:0,restitution:0},
+	{name:meteorGrey_small1,vertices:[0,16,7,28,23,27,28,10,13,0,4,4],density:500,friction:0,restitution:0},
+	{name:meteorGrey_small2,vertices:[0,12,4,24,20,28,28,18,18,0,8,0],density:500,friction:0,restitution:0},
+	{name:meteorBrown_big3,vertices:[0,62,35,82,75,60,89,41,65,0,15,7,0,29],density:200,friction:0,restitution:0},
+	{name:meteorBrown_big4,vertices:[0,38,12,83,66,96,98,57,81,7,29,1],density:200,friction:0,restitution:0},
+	{name:meteorGrey_big3,vertices:[0,62,35,82,75,60,89,41,65,0,15,7,0,29],density:200,friction:0,restitution:0},
+	{name:meteorGrey_big4,vertices:[0,38,12,83,66,96,98,57,81,7,29,1],density:200,friction:0,restitution:0},
+	{name:meteorYellow_tiny1,vertices:[1,9,8,0,18,14,16,11,5,0],density:200,friction:0,restitution:0},
+	{name:meteorYellow_tiny2,vertices:[16,7,7,15,16,10,10,0],density:200,friction:0,restitution:0},
+	{name:grassBlock,vertices:[0,0,0,70,70,70,70,0],density:2500,friction:0,restitution:0},
+	{name:evil-twin,vertices:[21],density:1000,friction:0,restitution:0,isCircle:true},
+	{name:cannon,vertices:[35],density:200,friction:0,restitution:0,isCircle:true},
+	{name:meteorYellow_small1,vertices:[0,16,6,28,26,27,28,8,14,0,3,4],density:200,friction:0,restitution:0}
+	{name:meteorYellow_small2,vertices:[0,10,4,24,21,26,29,14,21,1,8,0],density:200,friction:0,restitution:0}
+]

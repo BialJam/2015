@@ -1,0 +1,6 @@
+<dialog style="dialog" title="@deathTitle">
+	<@eval points points/>
+	<label pad=16>@deathPrompt|${points}</label>
+	<textButton onResult="goto:menu" uniformX=true expandX=true fillX=true>@back</textButton>
+	<textButton onResult="goto:game" uniformX=true expandX=true fillX=true>@retry</textButton>
+</dialog>

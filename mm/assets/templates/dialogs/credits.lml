@@ -1,0 +1,7 @@
+<dialog style="dialog" title="@creditsTitle">
+	<@each author:author[0-3] prompt:@creditPrompt[0-3]>
+		<label style="small" expandX=true align="right" padLeft=10>${prompt}</label>
+		<textButton onClick="${author}" style="textSmall" expandX=true align="left" row=true padRight=10>@${author}</textButton>
+	</@each>
+	<textButton expandX=true fillX=true onResult="ok">@ok</textButton>
+</dialog>

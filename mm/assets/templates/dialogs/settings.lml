@@ -1,0 +1,12 @@
+<dialog style="dialog" title="@settingsTitle">
+	<div oneColumn=true>
+		@musicVolume
+		<slider value="&getMusicVolume" onChange="setMusicVolume"/>
+		<checkBox onClick="toggleMusic" isChecked="&musicOn">@toggleMusic</checkBox>
+		@soundVolume
+		<slider value="&getSoundVolume" onChange="setSoundVolume"/>
+		<checkBox onClick="toggleSound" isChecked="&soundOn">@toggleSound</checkBox>
+	</div>
+	<textButton onResult="restoreSettings" uniformX=true expandX=true fillX=true>@cancel</textButton>
+	<textButton onResult="saveSettings" uniformX=true expandX=true fillX=true>@save</textButton>
+</dialog>

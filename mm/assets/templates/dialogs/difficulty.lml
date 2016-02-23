@@ -1,0 +1,7 @@
+<dialog style="dialog" title="@difficultyTitle">
+	<@eval difficultyLevels levels/>
+	<@each level:${levels}>
+		<textButton onResult="choose:${level}" toolTip="&${level}" row=true expandX=true fillX=true >@${level}</textButton>
+	</@each>
+	<textButton onResult="cancel">@back</textButton>
+</dialog>

@@ -1,0 +1,32 @@
+<dialog style="dialog" title="@tutorialTitle">
+	<scrollPane expandX=true fillX=true height=356 fadeScrollBarsDelay=0.1f fadeScrollBarsAlphaSeconds=0.3>
+		<div oneColumn=true>
+			<label style="violet" row=true>@title</label>
+			<label style="small-violet" row=true padTop=-24>@titleLong</label>
+			<@each prompt:@tutorialPrompt[0-4]>
+				<label style="small">${prompt}</label>
+			</@each>
+			<label style="small">@tutorialBase</label>
+			<image style="tutorial-right" />
+			<@each prompt:@tutorialRight[0-2]>
+				<label style="small" >${prompt}</label>
+			</@each>
+	<!--	
+ 			<image style="tutorial-left" />
+			<@each prompt:@tutorialLeft[0-1]>
+				<label style="small">${prompt}</label>
+			</@each>
+	-->
+			<image style="platform" padTop=10 />
+			<label style="small">@tutorialPlatform</label>
+			<image style="jelly" padTop=10 />
+			<label style="small">@tutorialJelly</label>
+			<image style="tutorial-mode" />
+			<@each prompt:@tutorialMode[0-3]>
+				<label style="small">${prompt}</label>
+			</@each>
+			<label style="small-violet" pad=8>@tutorialEnd</label>
+		</div>
+	</scrollPane>
+	<textButton onResult="cancel" fillX=true expandX=true>@back</textButton>
+</dialog>

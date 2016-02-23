@@ -1,0 +1,11 @@
+<table fillParent=true oneColumn=true>
+	<image id="heart" style="heart-full" expandX=true align=left pad=12 />
+	<label id="event" expand=true>0!</label>
+	<label id="points" style="violet">0</label>
+	<div expandX=true fillX=true defaultPad=6>
+		<textButton style="textSmall" onClick="goto:menu">@back</textButton>
+		<label id="gameMode" style="small-violet" padLeft=90 expandX=true>@controlPlayer</label>
+		<textButton style="textSmall" onClick="pause" padRight=16>@pause</textButton>
+		<textButton style="textSmall" onClick="goto:game">@restart</textButton>
+	</div>
+</table>

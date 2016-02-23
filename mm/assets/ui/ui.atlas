@@ -1,0 +1,151 @@
+
+ui.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+kaushan60
+  rotate: false
+  xy: 0, 256
+  size: 512, 256
+  orig: 512, 256
+  offset: 0, 0
+  index: -1
+kaushan32
+  rotate: false
+  xy: 0, 68
+  size: 256, 188
+  orig: 256, 188
+  offset: 0, 0
+  index: -1
+tutorial-left
+  rotate: false
+  xy: 512, 384
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+tutorial-right
+  rotate: false
+  xy: 768, 384
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+tutorial-mode
+  rotate: false
+  xy: 256, 128
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+platform
+  rotate: false
+  xy: 512, 314
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+jelly
+  rotate: false
+  xy: 0, 16
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 384, 186
+  size: 32, 70
+  split: 13, 13, 46, 16
+  orig: 32, 70
+  offset: 0, 0
+  index: -1
+heart-empty
+  rotate: false
+  xy: 256, 83
+  size: 53, 45
+  orig: 53, 45
+  offset: 0, 0
+  index: -1
+heart-full
+  rotate: false
+  xy: 512, 269
+  size: 53, 45
+  orig: 53, 45
+  offset: 0, 0
+  index: -1
+heart-half
+  rotate: false
+  xy: 582, 339
+  size: 53, 45
+  orig: 53, 45
+  offset: 0, 0
+  index: -1
+progress-full
+  rotate: false
+  xy: 416, 194
+  size: 8, 62
+  split: 3, 3, 31, 29
+  orig: 8, 62
+  offset: 0, 0
+  index: -1
+progress
+  rotate: false
+  xy: 424, 194
+  size: 8, 62
+  split: 3, 3, 31, 29
+  orig: 8, 62
+  offset: 0, 0
+  index: -1
+knob
+  rotate: false
+  xy: 52, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+square-hover
+  rotate: false
+  xy: 384, 154
+  size: 32, 32
+  split: 13, 13, 13, 13
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+square
+  rotate: false
+  xy: 309, 96
+  size: 32, 32
+  split: 13, 13, 13, 13
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+semi-alpha
+  rotate: false
+  xy: 0, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+check-off
+  rotate: false
+  xy: 582, 319
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+check-on
+  rotate: false
+  xy: 635, 364
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+slider
+  rotate: false
+  xy: 565, 282
+  size: 3, 32
+  split: 1, 1, 0, 0
+  orig: 3, 32
+  offset: 0, 0
+  index: -1

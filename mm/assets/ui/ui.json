@@ -1,0 +1,38 @@
+{
+	com.badlogic.gdx.graphics.Color: {
+		white: { a: 1, b: 1, g: 1, r: 1 },
+		gray: { a: 1, b: 0.8, g: 0.8, r: 0.8 },
+		black: { a: 1, b: 0, g: 0, r: 0 },
+		violet: { a: 1, b: 0.85, g: 0.3, r: 0.95 }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+		default: { titleFont: default, background: window, titleFontColor: white },
+		dialog: { titleFont: default, background: window, titleFontColor: white, stageBackground: semi-alpha },
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+		default: { font: big, fontColor: white },
+		violet: { font: big, fontColor: violet },
+		small: { font: default, fontColor: white },
+		small-violet: { font: default, fontColor: violet }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+		default-horizontal: { background: progress, knobBefore: progress-full }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+		default-horizontal: { background: slider, knob: knob }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+		default: { checkboxOff: check-off, checkboxOn: check-on, font: default, fontColor: white, checkedFontColor: violet }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+		default: { up: square, over: square-hover, down: square-hover, font: big, fontColor: white, overFontColor: gray, downFontColor: gray, pressedOffsetX: 1, pressedOffsetY: -1 },
+		text: { font: big, fontColor: white, overFontColor: gray, downFontColor: gray, pressedOffsetX: 1, pressedOffsetY: -1 },
+		textSmall: { font: default, fontColor: gray, overFontColor: violet, downFontColor: violet, pressedOffsetX: 1, pressedOffsetY: -1 }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+		default: { hScrollKnob: square, vScrollKnob: square }
+	},
+	com.github.czyzby.lml.gdx.widget.reflected.Tooltip$TooltipStyle: {
+		default: { background: square }
+	}
+}

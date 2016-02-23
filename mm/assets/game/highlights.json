@@ -1,0 +1,6 @@
+[
+	{name:jellyred,vertices:[26],density:1,friction:0,restitution:0,isCircle:true},
+	{name:jellygreen,vertices:[26],density:1,friction:0,restitution:0,isCircle:true},
+	{name:jellyyellow,vertices:[26],density:1,friction:0,restitution:0,isCircle:true},
+	{name:jellyblue,vertices:[26],density:1,friction:0,restitution:0,isCircle:true},
+]

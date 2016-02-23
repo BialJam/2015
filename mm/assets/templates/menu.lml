@@ -1,0 +1,11 @@
+<window title="@menuTitle" fillParent=true defaultPad=8>
+	<label style="violet" colspan=2 row=true>@title</label>
+	<label style="small-violet" colspan=2 row=true padTop=-24>@titleLong</label>
+	<label style="small" colspan=2 row=true>@menuPrompt</label>
+	<textButton onClick="show:difficulty" uniformX=true expandX=true fillX=true>@play</textButton>
+	<textButton onClick="show:tutorial" uniformX=true expandX=true fillX=true row=true>@howToPlay</textButton>
+	<textButton onClick="show:settings" uniformX=true expandX=true fillX=true>@settings</textButton>
+	<textButton onClick="show:lang" expandX=true fillX=true row=true>@language</textButton>
+	<textButton onClick="show:credits" expandX=true fillX=true>@credits</textButton>
+	<textButton onClick="app:exit" expandX=true fillX=true>@exit</textButton>
+</window>

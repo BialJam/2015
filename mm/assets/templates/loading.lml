@@ -1,0 +1,10 @@
+<window title="@loadingTitle" fillParent=true oneColumn=true>
+	<label style="violet">@title</label>
+	<label style="small-violet" padTop=-24 padBottom=16>@titleLong</label>
+	<progressBar id="loadingBar" onComplete="goto:menu" animateDuration=0.2 value=0 stepSize=0.001% row=true fillX=true expandX=true padLeft=64 padRight=64 />
+	<div>
+		@loadingPrompt0
+		<label id="loadingPercent" style="violet">0</label>
+		@loadingPrompt1
+	</div>	
+</window>

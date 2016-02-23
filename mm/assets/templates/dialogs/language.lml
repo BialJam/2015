@@ -1,0 +1,9 @@
+<dialog style="dialog" title="@language">
+	<label style="violet" pad=4>@languagePrompt</label><row/>
+	<@each lang:${locales}>
+		<@if ${lang} != ${currentLocale}>
+			<textButton style="text" row=true onClick="locale:${lang}">@${lang}</textButton>
+		</@if>
+	</@each>
+	<textButton onResult="cancel" expandX=true fillX=true>@cancel</textButton>
+</dialog>
